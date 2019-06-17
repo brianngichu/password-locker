@@ -8,3 +8,10 @@ def create_contact(email,phone,first_name,last_name,password):
     '''
     new_user = User(email,phone,first_name,last_name,password)
     return new_user
+
+#To save a user
+def save_user(user):
+    '''
+    Function to save user
+    '''
+    user.save_user()    
