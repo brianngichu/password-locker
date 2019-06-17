@@ -40,7 +40,7 @@ Python 3.6.7
 
 ## Support and contact details
 Mobile Number : 0706831353
-or emal me at brianngichu@gmail.com
+email : brianngichu@gmail.com
 
 ### License
 **[MIT](https://github.com/brianngichu/password-locker/blob/master/LICENSE)**
