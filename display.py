@@ -33,3 +33,9 @@ def display_users():
     Function that returns all the saved users
     '''
     return User.display_users()
+#To delete user
+def del_user(user):
+    '''
+    Function to delete a user
+    '''
+    user.delete_user()
