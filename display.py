@@ -2,11 +2,11 @@ import pyperclip
 from user import User
 from credentials import Credentials
 #To add an account
-def create_contact(email,phone,first_name,last_name,password):
+def create_contact(first_name,last_name,email,phone,password):
     '''
     Function to create a new account
     '''
-    new_user = User(email,phone,first_name,last_name,password)
+    new_user = User(first_name,last_name,email,phone,password)
     return new_user
 
 #To save a user
