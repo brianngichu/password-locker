@@ -15,3 +15,9 @@ def save_user(user):
     Function to save user
     '''
     user.save_user()    
+#To find user
+def find_user(number):
+    '''
+    Function that finds a user by number and returns the user
+    '''
+    return User.find_by_number(number)    
